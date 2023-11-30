@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 #landing__text{
-  /* background: url('../public/hero-background.jpg');
+  background: url('../public/galaxy-background.gif');
   background-clip: text;
   background-position: top;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   font-weight: 900;
   color: white
