@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <title>Patty Arao's Website</title>
       <body className={font.className}>
         {children}</body>
     </html>
