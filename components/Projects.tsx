@@ -6,4 +6,6 @@ const Projects = () => {
     </section> );
 }
  
+Projects.displayName = 'Projects';
+
 export default Projects;

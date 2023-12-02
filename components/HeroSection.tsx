@@ -11,5 +11,7 @@ const HeroSection = () => {
         </section>
      );
 }
+
+HeroSection.displayName = 'Hero Section';
  
 export default HeroSection;

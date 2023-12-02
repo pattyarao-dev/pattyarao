@@ -6,4 +6,5 @@ const CVPage = () => {
     </section> );
 }
  
+CVPage.displayName = 'CV Page';
 export default CVPage;

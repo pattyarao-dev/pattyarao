@@ -5,5 +5,6 @@ const ContactMe = () => {
         <p>this is the contact me section</p>
     </section> );
 }
- 
+
+ContactMe.displayName = 'Contact Me';
 export default ContactMe;

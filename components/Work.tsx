@@ -6,4 +6,6 @@ const Work = () => {
     </section> );
 }
  
+
+Work.displayName = 'Work';
 export default Work;
