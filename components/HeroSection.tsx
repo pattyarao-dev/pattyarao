@@ -1,14 +1,13 @@
-import { MdKeyboardArrowDown } from "react-icons/md";
+import Image from "next/image";
+import gradient from "@/public/5.png"
 
 const HeroSection = () => {
     return ( 
-        <section id="hero__section" className="flex-col justify-evenly">
-            <div>
-            <h1 className="w-full text-center text-2xl text-white">hey there, i'm</h1>
-            <h1 id="landing__text" className="text-center text-[80px] lg:text-[200px]">patty</h1>
+        <section id="hero__section" className="flex-col gap-4">
+            <p className="text-2xl lg:text-5xl font-black drop-shadow">hey there, i'm patty</p>
+            <div className="w-1/2 p-2 justify-center items-center rounded-lg drop-shadow-md text-sm lg:text-lg text-center">
+                <p><span>Designer</span> and <span>Developer</span></p>
             </div>
-
-            <p className="w-full flex items-center justify-center gap-4 text-white">learn more about me <span><MdKeyboardArrowDown /></span></p>
         </section>
      );
 }

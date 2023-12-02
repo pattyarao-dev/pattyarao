@@ -1,9 +1,9 @@
 import React from "react";
 
-const ContactMe = React.forwardRef<HTMLElement>((props, ref) => {
-    return ( <section id="contactme" className="text-white" ref={ref}>
-        <p>This is the about me section</p>
+const ContactMe = () => {
+    return ( <section id="contact__section" className="">
+        <p>this is the contact me section</p>
     </section> );
-})
+}
  
 export default ContactMe;

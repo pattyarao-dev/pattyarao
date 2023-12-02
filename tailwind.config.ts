@@ -8,10 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark-violet': '#161A30',
-        'violet-main': '#31304D',
-        'gray-main': '#B6BBC4',
-        'off-white': '#F0ECE5'
+
+        // branding color scheme 1
+        'brown-beige': '#FAF1E4',
+        'brown-sand': '#F4DFC8',
+        'off-white': '#FAF6F0',
+
+        // branding color scheme 2
+        'pink-warm': '#CE5A67',
+        'orange-mute': '#F4BF96'
       }
     },
   },
