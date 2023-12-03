@@ -13,6 +13,10 @@
     @apply btn-transition cursor-pointer hover:scale-110
   }
 
+  h1, h2, h3, p {
+    @apply cursor-default
+  }
+
   .btn-transition {
     transition: all;
     animation: ease;

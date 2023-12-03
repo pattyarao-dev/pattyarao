@@ -16,7 +16,8 @@ const Navbar = () => {
   }
 
   return (
-    <div className="top-0 sticky w-full h-fit flex items-center justify-between p-6 bg-black text-off-white text-sm">
+    <div className="top-0 sticky w-full h-fit flex items-center justify-center p-6 bg-black text-off-white text-sm">
+      <div className="w-full lg:w-[60%] flex items-center justify-between">
       <h1
       className={`font-black transition ease duration-70 cursor-pointer hover:scale-125 ${selected === "hero" ? `text-pink-warm` : null}`}
       onClick={() => {
@@ -27,7 +28,7 @@ const Navbar = () => {
         patty.
       </h1>
       <div className="w-fit flex items-center justify-end gap-4">
-        <button
+        {/* <button
           className={`${selected === "about" ? `text-pink-warm` : null}`}
           onClick={() => {
             scrollToSection("aboutme__section");
@@ -35,7 +36,7 @@ const Navbar = () => {
           }}
         >
           about
-        </button>
+        </button> */}
         <button
           className={`${selected === "work" ? `text-pink-warm` : null}`}
           onClick={() => {
@@ -72,6 +73,7 @@ const Navbar = () => {
         >
           cv
         </button>
+      </div>
       </div>
     </div>
   );
