@@ -3,68 +3,71 @@
 @tailwind utilities;
 
 @layer base {
-  section {
-   @apply  w-full min-h-screen flex items-center justify-center;
-  }
+    section {
+        @apply w-full min-h-screen flex items-center justify-center;
+    }
 }
 
 @layer components {
-  button {
-    @apply btn-transition cursor-pointer hover:scale-110
-  }
+    button {
+        @apply btn-transition cursor-pointer hover:scale-110;
+    }
 
-  h1, h2, h3, p {
-    @apply cursor-default
-  }
+    h1,
+    h2,
+    h3,
+    p {
+        @apply cursor-default;
+    }
 
-  .btn-transition {
-    transition: all;
-    animation: ease;
-    transition-duration: 0.3s;
-  }
+    .btn-transition {
+        transition: all;
+        animation: ease;
+        transition-duration: 0.3s;
+    }
 
-  .intro__text__color {
-    background: url('../public/5.png');
-    background-position: center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+    .intro__text__color {
+        background: url("../public/5.png");
+        background-position: center;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 /* Firefox */
 * {
-  scrollbar-width: thin;
-  scrollbar-color: #397524 #DFE9EB;
+    scrollbar-width: thin;
+    scrollbar-color: #f1b68a #dfe9eb;
 }
 
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
-  height: 10px;
-  width: 5px;
+    height: 10px;
+    width: 5px;
 }
 *::-webkit-scrollbar-track {
-  border-radius: 5px;
-  background-color: #DFE9EB;
+    border-radius: 5px;
+    background-color: #dfe9eb;
 }
 
 *::-webkit-scrollbar-track:hover {
-  background-color: #B8C0C2;
+    background-color: #b8c0c2;
 }
 
 *::-webkit-scrollbar-track:active {
-  background-color: #B8C0C2;
+    background-color: #b8c0c2;
 }
 
 *::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: black;
+    border-radius: 5px;
+    background-color: black;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #F4BF96;
+    background-color: #f4bf96;
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color: black;
+    background-color: black;
 }
