@@ -71,8 +71,8 @@ const Work = () => {
                         Experience
                     </h2>
                     <div className="w-full flex flex-col gap-10 justify-center">
-                        {experience.map((exp) => (
-                            <div className="text-white">
+                        {experience.map((exp, index) => (
+                            <div key={index} className="text-white">
                                 <p>{exp.date}</p>
                                 <p className="text-orange-mute text-xl font-semibold">
                                     {exp.name}
